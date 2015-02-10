@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+ <hibernate-mapping>  
+  <class name="com.softwareproviders.fanikiwa.Beans.Offer" table="offers">  
+    <id name="Id">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="MemberId"></property>  
+    <property name="Term"></property> 
+     <property name="OfferType"></property>  
+    <property name="Description"></property> 
+     <property name="Offerees"></property>  
+    <property name="Status"></property> 
+     <property name="PublicOffer"></property>  
+    <property name="ExpiryDate"></property> 
+     <property name="CreatedDate"></property>  
+    <property name="Amount"></property> 
+     <property name="Interest"></property>  
+    <property name="PartialPay"></property>  
+            
+  </class>  
+            
+ </hibernate-mapping>  

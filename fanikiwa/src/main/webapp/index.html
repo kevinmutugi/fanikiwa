@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fanikiwa!</title>
+    <script type="text/javascript" src="/js/base.js"></script>
+    <link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap-responsive.css">
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+
+ 
+<div>
+<jsp:useBean id="Offers" 
+                    class="com.softwareproviders.fanikiwa.Beans.Offer"> 
+   <jsp:setProperty name="1" property="Id"
+                    value="1"/>
+   <jsp:setProperty name="Offers" property="MemberId" 
+                    value="2"/>
+   <jsp:setProperty name="Offers" property="Term" 
+                    value="3"/>
+</jsp:useBean>
+
+<p>Offer Id: 
+   <jsp:getProperty name="Offers" property="Id"/>
+</p>
+<p>Member Id: 
+   <jsp:getProperty name="Offers" property="MemberId"/>
+</p>
+<p>Term: 
+   <jsp:getProperty name="Offers" property="Term"/>
+</p>
+ </div>
+ 
+
+  
+</body>
+</html>
