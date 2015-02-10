@@ -46,5 +46,11 @@
 	<classpathentry kind="lib" path="C:/Tools/hibernatejar/hibernatejar/jta.jar"/>
 	<classpathentry kind="lib" path="C:/Tools/hibernatejar/hibernatejar/log4j-1.2.11.jar"/>
 	<classpathentry kind="lib" path="C:/Tools/hibernatejar/hibernatejar/xerces-2.6.2.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/fanikiwa-0.0.1-SNAPSHOT/WEB-INF/classes"/>
 </classpath>
