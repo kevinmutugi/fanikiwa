@@ -4,7 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;  
 import org.hibernate.Transaction;  
 import org.hibernate.cfg.Configuration;
-import com.softwareproviders.fanikiwa.Beans;
+import com.softwareproviders.fanikiwa.Beans.*;
 
 public class Snippet {
 	
